@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "<b>❌ Don't send me messages, It is a Private File Share bot!\n\nFor Public File Store Bot 👇,\n@Ultra_File_Store_Bot</b>"
+USER_REPLY_TEXT = "<b>❌ Don't send me messages, It is a Private File Share bot!\n\nFor Public File Store Bot 👇\n@Ultra_File_Store_Bot</b>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
