@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>
+            text = f"""<b>
 ╭────[ ᴛᴀᴍɪʟꜱᴋ ꜰɪʟᴇꜱ ]────⍟
 ├⍟ ʙᴏᴛ ɴᴀᴍᴇ : <a href='http://telegram.me/TamilSk_Files_Bot'>ᴛᴀᴍɪʟꜱᴋ ꜰɪʟᴇꜱ</a>
 ├⍟ ᴏᴡɴᴇʀ : <a href='https://telegram.me/SKxTharun'>𝗦𝗞ㅤ〆ㅤͲʜ‌ᴀʀᴜɴ</a>
@@ -18,7 +18,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 ├⍟ ᴍᴏᴠɪᴇꜱ : <a href='https://telegram.me/TamilSk_Moviez'>ᴛᴀᴍɪʟꜱᴋ ᴍᴏᴠɪᴇᴢ</a>
 ├⍟ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/Rapid_Bots'>ʀᴀᴘɪᴅ ʙᴏᴛꜱ</a>
 ├⍟ ᴍʏ ʙᴇsᴛ ꜰʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
-╰────────────────────⍟</b>",
+╰────────────────────⍟</b>""",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
