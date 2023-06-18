@@ -12,11 +12,11 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         await query.message.edit_text(
             text = f"""<b>
 ╭────[ ᴛᴀᴍɪʟꜱᴋ ꜰɪʟᴇꜱ ]────⍟
-├⍟ ʙᴏᴛ ɴᴀᴍᴇ : <a href='http://telegram.me/TamilSk_Files_Bot'>ᴛᴀᴍɪʟꜱᴋ ꜰɪʟᴇꜱ</a>
-├⍟ ᴏᴡɴᴇʀ : <a href='https://telegram.me/SKxTharun'>𝗦𝗞ㅤ〆ㅤͲʜ‌ᴀʀᴜɴ</a>
+├⍟ ʙᴏᴛ ɴᴀᴍᴇ : <a href='http://telegram.me/SKT_Files_Bot'>ᴛᴀᴍɪʟꜱᴋ ꜰɪʟᴇꜱ</a>
+├⍟ ᴏᴡɴᴇʀ : <a href='https://telegram.me/SKT_Links'>𝗦𝗞ㅤ〆ㅤͲʜ‌ᴀʀᴜɴ</a>
 ├⍟ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
-├⍟ ᴍᴏᴠɪᴇꜱ : <a href='https://telegram.me/TamilSk_Moviez'>ᴛᴀᴍɪʟꜱᴋ ᴍᴏᴠɪᴇᴢ</a>
-├⍟ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/Rapid_Bots'>ʀᴀᴘɪᴅ ʙᴏᴛꜱ</a>
+├⍟ ᴍᴏᴠɪᴇꜱ : <a href='https://telegram.me/SKT_Movies'>ᴛᴀᴍɪʟꜱᴋ ᴍᴏᴠɪᴇᴢ</a>
+├⍟ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/SKT_Links'>ʀᴀᴘɪᴅ ʙᴏᴛꜱ</a>
 ├⍟ ᴍʏ ʙᴇsᴛ ꜰʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
 ╰────────────────────⍟</b>""",
             disable_web_page_preview = True,
